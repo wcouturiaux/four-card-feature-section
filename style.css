@@ -1,0 +1,31 @@
+/* Table of contents:
+1. Global styles;
+2. Typography;
+3. Layout;
+4. Components;
+5. Media queries
+*/
+
+/* 1. =============
+      Global styles
+      ============= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+/* 2. =============
+      Typography
+      ============= */
+
+h2 {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}

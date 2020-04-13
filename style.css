@@ -29,3 +29,18 @@ h2 {
   color: hsl(229, 6%, 66%);
   font-weight: 200;
 }
+
+h3 {
+  color: hsl(234, 12%,34%);
+}
+
+.bold{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+header p {
+  font-size: 12px;
+  color: hsl(229, 6%, 66%);
+  
+}

@@ -1,7 +1,8 @@
-#About
+# About
 I completed this challenge as a follow along to learn some new techniques.
 From the solution, I changed the header p css to set padding based on vw rather than rem as rem too quickly stacked the wording in the <p> tag.
 
+# ORIGINAL READ ME
 # Frontend Mentor - Four card feature section
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)

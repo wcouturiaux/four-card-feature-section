@@ -42,5 +42,34 @@ h3 {
 header p {
   font-size: 12px;
   color: hsl(229, 6%, 66%);
-  
+  margin: auto;
+  padding: 0px 30rem;
+}
+
+#cards p {
+  font-size: 11px;
+  color: hsl(229, 6%, 66%)
+}
+
+/* 3. =============
+      Layout
+      ============= */
+
+.container {
+  margin: auto;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+header p {
+  margin: 1rem 0;
+}
+
+#cards {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  text-align: center;
+  margin: 3.5rem 15rem;
 }

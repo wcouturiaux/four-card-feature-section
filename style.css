@@ -43,7 +43,7 @@ header p {
   font-size: 12px;
   color: hsl(229, 6%, 66%);
   margin: auto;
-  padding: 0px 30rem;
+  padding: 0px 25vw;
 }
 
 #cards p {
@@ -87,6 +87,14 @@ header p {
   padding: 2rem;
 }
 
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+  padding-top: 1.5rem;
+  text-align: right;
+}
+
 .card1 {
   margin: auto;
   border-top: 3px solid hsl(180, 62%, 55%);
@@ -108,5 +116,60 @@ header p {
 .card4 {
   margin: auto;
   border-top: 3px solid hsl(212, 86%, 64%);
+
+}
+
+/* 5. =============
+      Media queries
+      ============= */
+
+@media only screen and (max-width: 500px) {
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  header p {
+    margin: 0;
+    padding: 1rem;
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.4;
+
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  header {
+    margin: 3rem 1rem;
+  }
+
+  #cards p {
+    font-size: 0.8rem;
+  }
+
+
+  #cards {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem 1rem;
+  }
+
+  .card {
+    background: #fff;
+    height: 43%;
+    width: 100%;
+    text-align: left;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.75rem 0.75rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  }
+
+
+
 
 }
